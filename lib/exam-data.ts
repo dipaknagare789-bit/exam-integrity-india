@@ -12,6 +12,39 @@ export interface ExamIncident {
 
 export const examIncidents: ExamIncident[] = [
   {
+    id: '16',
+    examName: 'NEET-UG 2026',
+    year: 2026,
+    type: 'leak',
+    description: 'Paper leak reported across multiple states hours before examination. Social media flooded with leaked question papers. Mass protests by students demanding re-examination and accountability.',
+    affectedCandidates: '25 Lakh+',
+    conductingBody: 'NTA',
+    status: 'under-investigation',
+    sources: ['CBI Investigation', 'Student Protests', 'Media Reports']
+  },
+  {
+    id: '17',
+    examName: 'REET 2026',
+    year: 2026,
+    type: 'leak',
+    description: 'Rajasthan Eligibility Examination for Teachers paper leaked on WhatsApp groups before exam. Multiple coaching center operators arrested. Exam cancelled and re-scheduled.',
+    affectedCandidates: '18 Lakh+',
+    conductingBody: 'RBSE',
+    status: 'under-investigation',
+    sources: ['Rajasthan Police', 'Education Department']
+  },
+  {
+    id: '18',
+    examName: 'CUET-UG 2026',
+    year: 2026,
+    type: 'irregularity',
+    description: 'Severe technical glitches at exam centers nationwide. Server crashes, wrong question papers distributed, and biometric failures reported. Students stranded for hours at centers.',
+    affectedCandidates: '15 Lakh+',
+    conductingBody: 'NTA',
+    status: 'under-investigation',
+    sources: ['NTA Notice', 'Student Complaints', 'UGC']
+  },
+  {
     id: '1',
     examName: 'NEET-UG 2024',
     year: 2024,
@@ -187,9 +220,9 @@ export const conductingBodies = [
 ]
 
 export const statistics = {
-  totalExamsAffected: 80,
-  yearsConsidered: 10,
-  candidatesAffected: '10 Crore+',
-  pendingInvestigations: 5,
-  ntaIncidents: 15,
+  totalExamsAffected: 83,
+  yearsConsidered: 12,
+  candidatesAffected: '12 Crore+',
+  pendingInvestigations: 8,
+  ntaIncidents: 18,
 }
